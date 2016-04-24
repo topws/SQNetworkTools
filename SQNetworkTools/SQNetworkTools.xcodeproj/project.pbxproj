@@ -14,6 +14,7 @@
 		FC7F09541CCBBC8200A16021 /* SQNetworkTools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC7F09521CCBBC8200A16021 /* SQNetworkTools.xcdatamodeld */; };
 		FC7F09561CCBBC8200A16021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7F09551CCBBC8200A16021 /* Assets.xcassets */; };
 		FC7F09591CCBBC8200A16021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7F09571CCBBC8200A16021 /* LaunchScreen.storyboard */; };
+		FC7F09651CCC8FE900A16021 /* CZKNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7F09641CCC8FE900A16021 /* CZKNetworkTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		FC7F09551CCBBC8200A16021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC7F09581CCBBC8200A16021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC7F095A1CCBBC8200A16021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7F09631CCC8FE900A16021 /* CZKNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZKNetworkTool.h; sourceTree = "<group>"; };
+		FC7F09641CCC8FE900A16021 /* CZKNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZKNetworkTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 		FC7F09451CCBBC8200A16021 /* SQNetworkTools */ = {
 			isa = PBXGroup;
 			children = (
+				FC7F09631CCC8FE900A16021 /* CZKNetworkTool.h */,
+				FC7F09641CCC8FE900A16021 /* CZKNetworkTool.m */,
 				FC7F09491CCBBC8200A16021 /* AppDelegate.h */,
 				FC7F094A1CCBBC8200A16021 /* AppDelegate.m */,
 				FC7F094C1CCBBC8200A16021 /* ViewController.h */,
@@ -157,6 +162,7 @@
 				FC7F094B1CCBBC8200A16021 /* AppDelegate.m in Sources */,
 				FC7F09541CCBBC8200A16021 /* SQNetworkTools.xcdatamodeld in Sources */,
 				FC7F09481CCBBC8200A16021 /* main.m in Sources */,
+				FC7F09651CCC8FE900A16021 /* CZKNetworkTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +309,7 @@
 				FC7F095F1CCBBC8200A16021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
